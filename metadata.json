@@ -1,0 +1,9 @@
+{
+  "name": "Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy new- Admin",
+  "description": "A Foodpanda-style medicine delivery app for Bangladesh featuring AI-powered medicine suggestions, live pharmacist consultation, and prescription enhancement.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone",
+    "geolocation"
+  ]
+}

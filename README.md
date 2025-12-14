@@ -1,11 +1,59 @@
-<div align="center">
+# MediPanda BD
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+A Foodpanda-style medicine delivery app for Bangladesh featuring AI-powered medicine suggestions, live pharmacist consultation, and prescription enhancement.
 
-  <h1>Built with AI Studio</h2>
+## Features
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+- **Role-based Access**: Separate views for Customers and Pharmacy Owners.
+- **AI Assistant**: Powered by **Gemini 2.5 Flash** for medicine suggestions and price checks using **Google Search/Maps grounding**.
+- **Live Pharmacist**: Real-time voice conversation using **Gemini 2.5 Native Audio (Live API)**.
+- **Prescription Enhancer**: Edit, crop, and clean up prescription images using **Gemini 2.5 Flash Image**.
+- **Medicine Calculator & Reminder**: Day-wise dosage calculator with alarms and smooth notifications.
+- **Pharmacy Dashboard**: Inventory management, order tracking, and AI stock predictions.
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+## Tech Stack
 
-</div>
+- **Frontend**: React, TypeScript, Tailwind CSS
+- **AI**: Google Gemini API (@google/genai)
+- **Icons**: Lucide React
+
+## How to Connect to GitHub
+
+To push this project to GitHub, follow these steps in your terminal:
+
+1.  **Initialize Git**:
+    ```bash
+    git init
+    ```
+
+2.  **Add files**:
+    ```bash
+    git add .
+    ```
+
+3.  **Commit changes**:
+    ```bash
+    git commit -m "Initial commit: MediPanda BD app"
+    ```
+
+4.  **Create a Repository**:
+    Go to [GitHub.com/new](https://github.com/new) and create a new empty repository.
+
+5.  **Link Repository**:
+    Replace `YOUR_USERNAME` and `REPO_NAME` with your actual details:
+    ```bash
+    git remote add origin https://github.com/YOUR_USERNAME/REPO_NAME.git
+    ```
+
+6.  **Push Code**:
+    ```bash
+    git push -u origin main
+    ```
+
+## Environment Setup
+
+Create a `.env` file in the root directory to store your API Key:
+
+```
+API_KEY=your_google_genai_api_key_here
+```
